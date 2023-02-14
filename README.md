@@ -1,3 +1,3 @@
 # DopravniPodnik
 
-Školní projekt, psaný v C#
+Školní projekt, psaný v C#.
