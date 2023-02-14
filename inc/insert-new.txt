@@ -1,0 +1,32 @@
+INSERT INTO Customer Values('kot0177','asd','matej','kotyz','1978-10-10','Ostrava','adressssa','email@email.cz')
+INSERT INTO Customer Values('asd','asd','matej','kotyz','1978-10-10','Ostrava','adressssa','emaill@email.cz')
+INSERT INTO Customer Values('asdasd','asd','matej','kotyz','1978-10-10','Ostrava','adressssa','emailll@email.cz')
+
+INSERT INTO Employee Values('kot0177','asd','matej','kotyz','1978-10-10','Ostrava','adressssa','email@email.cz','Driver')
+
+INSERT INTO Vehicle Values('sportak','porshe','4B5:4800',1900,20)
+
+INSERT INTO RouteNumber Values(17,'tramvaj')
+
+INSERT INTO Station Values('Josefa Kotase','49.7828803', '18.2561500')
+
+INSERT INTO Station Values('Dubina','49.7706250', '18.2457033')
+
+INSERT INTO Payment Values(50,'2016-12-10',1)
+
+INSERT INTO [Route] Values('2016-12-10','2016-12-10',1,1,1)
+
+INSERT INTO CustomerJourney Values(1,1,'2016-12-10','2016-12-10','komentar',1,2,1)
+
+
+
+INSERT INTO RouteNumberStation Values(0,1,1,1,null,1)
+INSERT INTO RouteNumberStation Values(0,1,2,2,null,0)
+
+INSERT INTO RouteNumberStation Values(1,1,2,1,null,1)
+INSERT INTO RouteNumberStation Values(1,1,1,2,null,0)
+
+select * from payment
+
+select * from CustomerJourney
+delete from CustomerJourney

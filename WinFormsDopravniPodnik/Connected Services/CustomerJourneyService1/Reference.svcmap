@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="72ec94f7-9120-4861-8db2-6c0162fa3c57" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65072/CustomerJourneyService/CustomerJourneyService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomerJourneyService.xsd" MetadataType="Schema" ID="de34fc46-47cd-4b7e-a2fd-791ce162f17b" SourceId="1" SourceUrl="http://localhost:65072/CustomerJourneyService/CustomerJourneyService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CustomerJourneyService1.xsd" MetadataType="Schema" ID="3c5801ed-e895-45dc-80a7-ea56ac590ed4" SourceId="1" SourceUrl="http://localhost:65072/CustomerJourneyService/CustomerJourneyService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CustomerJourneyService.disco" MetadataType="Disco" ID="8a5bb2ba-b732-4ae1-82a8-739649a9d0fc" SourceId="1" SourceUrl="http://localhost:65072/CustomerJourneyService/CustomerJourneyService.svc?disco" />
+    <MetadataFile FileName="CustomerJourneyService2.xsd" MetadataType="Schema" ID="68f9e06a-5ac4-44fd-8ddf-abb57bf6830a" SourceId="1" SourceUrl="http://localhost:65072/CustomerJourneyService/CustomerJourneyService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CustomerJourneyService.wsdl" MetadataType="Wsdl" ID="e011cbe6-3b2f-485e-aa96-a9e063e23ade" SourceId="1" SourceUrl="http://localhost:65072/CustomerJourneyService/CustomerJourneyService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

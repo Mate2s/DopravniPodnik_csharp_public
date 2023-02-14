@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfCustomerJourney xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomerJourney>
+    <ExitDate>2017-12-12T07:25:33.3483017+01:00</ExitDate>
+    <StartDate>2017-12-12T07:25:33.3483017+01:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2017-12-12T07:25:33.3483017+01:00</StartRoute>
+      <EndRoute>2017-12-12T07:25:33.3493024+01:00</EndRoute>
+      <CustomerJourneys />
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2017-12-12T07:25:33.2182932+01:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+      <CustomerJourneys />
+      <Coupons />
+    </Customer>
+  </CustomerJourney>
+  <CustomerJourney>
+    <ExitDate>2018-09-05T11:07:56.8330352+02:00</ExitDate>
+    <StartDate>2018-09-05T11:07:56.8330352+02:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2018-09-05T11:07:56.8340358+02:00</StartRoute>
+      <EndRoute>2018-09-05T11:07:56.8340358+02:00</EndRoute>
+      <CustomerJourneys />
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2018-09-05T11:07:56.7680399+02:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+      <CustomerJourneys />
+      <Coupons />
+    </Customer>
+  </CustomerJourney>
+  <CustomerJourney>
+    <ExitDate>2018-09-05T11:18:28.5373405+02:00</ExitDate>
+    <StartDate>2018-09-05T11:18:28.5363397+02:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2018-09-05T11:18:28.5373405+02:00</StartRoute>
+      <EndRoute>2018-09-05T11:18:28.5373405+02:00</EndRoute>
+      <CustomerJourneys />
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2018-09-05T11:18:28.4623403+02:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+      <CustomerJourneys />
+      <Coupons />
+    </Customer>
+  </CustomerJourney>
+  <CustomerJourney>
+    <ExitDate>2018-09-05T11:33:58.7656607+02:00</ExitDate>
+    <StartDate>2018-09-05T11:33:58.7656607+02:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2018-09-05T11:33:58.7666596+02:00</StartRoute>
+      <EndRoute>2018-09-05T11:33:58.7666596+02:00</EndRoute>
+      <CustomerJourneys />
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2018-09-05T11:33:58.6956633+02:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+      <CustomerJourneys />
+      <Coupons />
+    </Customer>
+  </CustomerJourney>
+  <CustomerJourney>
+    <ExitDate>2018-09-05T11:35:03.8392324+02:00</ExitDate>
+    <StartDate>2018-09-05T11:35:03.8392324+02:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2018-09-05T11:35:03.8402325+02:00</StartRoute>
+      <EndRoute>2018-09-05T11:35:03.8402325+02:00</EndRoute>
+      <CustomerJourneys />
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2018-09-05T11:35:03.7602334+02:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+      <CustomerJourneys />
+      <Coupons />
+    </Customer>
+  </CustomerJourney>
+  <CustomerJourney>
+    <ExitDate>2018-09-05T11:35:47.2175134+02:00</ExitDate>
+    <StartDate>2018-09-05T11:35:47.2175134+02:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+      <RouteNumberStations />
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2018-09-05T11:35:47.2175134+02:00</StartRoute>
+      <EndRoute>2018-09-05T11:35:47.2175134+02:00</EndRoute>
+      <CustomerJourneys />
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2018-09-05T11:35:47.1535136+02:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+      <CustomerJourneys />
+      <Coupons />
+    </Customer>
+  </CustomerJourney>
+  <CustomerJourney>
+    <ExitDate>2018-09-05T11:37:42.0892769+02:00</ExitDate>
+    <StartDate>2018-09-05T11:37:42.0892769+02:00</StartDate>
+    <Comment>asdasd</Comment>
+    <StartStation>
+      <Id>100</Id>
+      <Name>josefa kotase</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+    </StartStation>
+    <EndStation>
+      <Id>100</Id>
+      <Name>Dubina</Name>
+      <Gpslat>49.7828</Gpslat>
+      <Gpslng>18.2561</Gpslng>
+    </EndStation>
+    <Route>
+      <Id>100</Id>
+      <StartRoute>2018-09-05T11:37:42.0892769+02:00</StartRoute>
+      <EndRoute>2018-09-05T11:37:42.0892769+02:00</EndRoute>
+    </Route>
+    <Customer>
+      <Id>100</Id>
+      <Login>kot0177</Login>
+      <Password>asd</Password>
+      <Firstname>ja</Firstname>
+      <Lastname>prijmeni</Lastname>
+      <BirthDate>2018-09-05T11:37:42.0232783+02:00</BirthDate>
+      <City>ostrava</City>
+      <Adress>adressa</Adress>
+      <Email>emaillllllll@seznam.cz</Email>
+    </Customer>
+  </CustomerJourney>
+</ArrayOfCustomerJourney>

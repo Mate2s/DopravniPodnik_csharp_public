@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="04788de6-631c-4e80-931a-113823322076" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65072/RouteNumberService/RouteNumberService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RouteNumberService.xsd" MetadataType="Schema" ID="764cb4eb-e2f9-49a8-abf9-ddb1328858c9" SourceId="1" SourceUrl="http://localhost:65072/RouteNumberService/RouteNumberService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RouteNumberService1.xsd" MetadataType="Schema" ID="e8133a46-9489-4d23-88f4-ca55739131de" SourceId="1" SourceUrl="http://localhost:65072/RouteNumberService/RouteNumberService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RouteNumberService.disco" MetadataType="Disco" ID="5422a36c-80d0-4740-8d00-be5b3c997f60" SourceId="1" SourceUrl="http://localhost:65072/RouteNumberService/RouteNumberService.svc?disco" />
+    <MetadataFile FileName="RouteNumberService.wsdl" MetadataType="Wsdl" ID="2831086c-1e9d-4db8-9998-5bf2cc6b3fb2" SourceId="1" SourceUrl="http://localhost:65072/RouteNumberService/RouteNumberService.svc?wsdl" />
+    <MetadataFile FileName="RouteNumberService2.xsd" MetadataType="Schema" ID="b7fd0afc-7e0f-4960-9c99-d55f44188a8b" SourceId="1" SourceUrl="http://localhost:65072/RouteNumberService/RouteNumberService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

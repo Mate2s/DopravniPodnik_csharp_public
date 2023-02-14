@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1393a527-e0ed-4757-b52a-87d52a285754" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65072/CustomerService/CusomerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CusomerService.xsd" MetadataType="Schema" ID="3dbcbdf4-754c-406d-96b8-87c248ff03d7" SourceId="1" SourceUrl="http://localhost:65072/CustomerService/CusomerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CusomerService.disco" MetadataType="Disco" ID="61818e9a-3fba-4944-8d60-dbc5dbf76b1a" SourceId="1" SourceUrl="http://localhost:65072/CustomerService/CusomerService.svc?disco" />
+    <MetadataFile FileName="CusomerService.wsdl" MetadataType="Wsdl" ID="d33921c6-53c2-499f-a848-ba9bb7650e8d" SourceId="1" SourceUrl="http://localhost:65072/CustomerService/CusomerService.svc?wsdl" />
+    <MetadataFile FileName="CusomerService1.xsd" MetadataType="Schema" ID="552e8f4a-57e1-4d73-8c38-40ffae73077f" SourceId="1" SourceUrl="http://localhost:65072/CustomerService/CusomerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CusomerService2.xsd" MetadataType="Schema" ID="edb26211-7b8e-45e3-a31a-e30efd3a0bbf" SourceId="1" SourceUrl="http://localhost:65072/CustomerService/CusomerService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

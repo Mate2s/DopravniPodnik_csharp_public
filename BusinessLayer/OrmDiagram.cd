@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessLayer.ORM.DB.AbstractMapper">
+    <Position X="15.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAgGAAAEAAAAAIAAAABAAAAAEAAAAQQDAACAAAAAE=</HashCode>
+      <FileName>ORM\DB\AbstractMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.AdministratorMapper">
+    <Position X="8.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\AdministratorMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.CouponMapper">
+    <Position X="15.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\CouponMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.CustomerJourneyMapper">
+    <Position X="22" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\CustomerJourneyMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.CustomerMapper">
+    <Position X="4" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\CustomerMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.DriverMapper">
+    <Position X="10.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\DriverMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.PaymentMapper">
+    <Position X="17.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\PaymentMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.RouteNumberMapper">
+    <Position X="24.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\RouteNumberMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.RouteNumberStationMapper">
+    <Position X="6.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\RouteNumberStationMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.RouteMapper">
+    <Position X="13" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\RouterMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.StationMapper">
+    <Position X="19.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\StationMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.DB.VehicleMapper">
+    <Position X="26.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAAAAAIAAAAAAAAAAAAAAAQQAAACAAAAAA=</HashCode>
+      <FileName>ORM\DB\VehicleMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.AdministratorXmlMapper&lt;T&gt;">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\AdministratorXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.CouponXmlMapper&lt;T&gt;">
+    <Position X="10.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\CouponXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.CustomerJourneyXmlMapper&lt;T&gt;">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\CustomerJourneyXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.CustomerXmlMapper&lt;T&gt;">
+    <Position X="24.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\CustomerXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.DriverXmlMapper&lt;T&gt;">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\DriverXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.PaymentXmlMapper&lt;T&gt;">
+    <Position X="13" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\PaymentXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.RouteNumberStationXmlMapper&lt;T&gt;">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\RouteNumberStationXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.RouteNumberXmlMapper&lt;T&gt;">
+    <Position X="26.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\RouteNumberXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.RouteXmlMapper&lt;T&gt;">
+    <Position X="8.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\RouteXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.StationXmlMapper&lt;T&gt;">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\StationXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.VehicleXmlMapper&lt;T&gt;">
+    <Position X="22" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\XML\VehicleXmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.XmlGenerator">
+    <Position X="29" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ORM\XML\XmlGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.ORM.XML.XmlMapper&lt;T&gt;">
+    <Position X="15.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAAAAAAACAAAAAAECAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ORM\XML\XmlMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BusinessLayer.ORM.IAdministratorMapper" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IAdministratorMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.ICouponMapper" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\ICouponMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.ICustomerJourneyMapper" Collapsed="true">
+    <Position X="15.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\ICustomerJourneyMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.ICustomerMapper" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\ICustomerMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IDriverMapper" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IDriverMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IMapper">
+    <Position X="15.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ORM\IMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IPaymentMapper" Collapsed="true">
+    <Position X="17.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IPaymentMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IRouteMapper" Collapsed="true">
+    <Position X="24.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IRouteMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IRouteNumberMapper" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IRouteNumberMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IRouteNumberStationMapper" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IRouteNumberStationMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IStationMapper" Collapsed="true">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IStationMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessLayer.ORM.IVehicleMapper" Collapsed="true">
+    <Position X="26.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\IVehicleMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

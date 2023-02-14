@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebDopravniPodnik.Models.CustomerJourney>
+
+@{
+    ViewBag.Title = "Historie";
+}
+
+<h2>Historie</h2>
+
+<p>
+    
+</p>
+<table class="table">
+    <tr>
+        
+        <th>
+            Odkud
+        </th>
+        <th>
+           Kam
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comment)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartStation.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndStation.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Comment)
+        </td>
+        <td>
+            @Html.ActionLink("Komentovat", "editComment", new { items=item }) 
+            
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessLayer.BusinessLayerClass.Administrator" Collapsed="true">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayerClass\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Coupon" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgACAAAAAAQAAAIJAAAAAAAAAAAQABAAAAAIBAAA=</HashCode>
+      <FileName>BusinessLayerClass\Coupon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Customer" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEABACAMAEAIAAFAQAQAAAgAAAAAAQAQIAICAAU=</HashCode>
+      <FileName>BusinessLayerClass\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.CustomerJourney" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABGAAACEEEAAIIAAAMIAAAAAAAAAAAAgAAABAEJAAAA=</HashCode>
+      <FileName>BusinessLayerClass\CustomerJourney.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.DomainObject">
+    <Position X="14.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAoAAAA=</HashCode>
+      <FileName>BusinessLayerClass\DomainObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Driver" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayerClass\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Employee" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEgBACAACAAIAEFAAAQAAAgAAAAAAQAQIAICAAE=</HashCode>
+      <FileName>BusinessLayerClass\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Payment" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBACAAAAAEEAgAIAAABAAAAACAEAAAAAAAAgQAIAAAA=</HashCode>
+      <FileName>BusinessLayerClass\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Route" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAABAEAAAABAQAQADAIIAABAAAAAAAICIAA=</HashCode>
+      <FileName>BusinessLayerClass\Route.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.RouteNumber" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAAgCAAEAEBAEAAgAAAAAAAAAAAAAAJAAAA=</HashCode>
+      <FileName>BusinessLayerClass\RouteNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.RouteNumberStation" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAACAAAAIAAAECAAAAAAAAAIAABAAAABQAIAAQA=</HashCode>
+      <FileName>BusinessLayerClass\RouteNumberStation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Station" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAABAAgAAAAAABAIAQQAAAAAAAAACAAAAIAIAA=</HashCode>
+      <FileName>BusinessLayerClass\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Vehicle" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAABAAACAQBAEBAAAYCAAAAAAAAAAAAAAIBAIA=</HashCode>
+      <FileName>BusinessLayerClass\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

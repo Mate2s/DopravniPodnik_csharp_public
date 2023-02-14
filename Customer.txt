@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2017-12-12T07:25:33.2182932+01:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+    <CustomerJourneys />
+    <Coupons />
+  </Customer>
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2018-09-05T11:07:56.7680399+02:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+    <CustomerJourneys />
+    <Coupons />
+  </Customer>
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2018-09-05T11:18:28.4623403+02:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+    <CustomerJourneys />
+    <Coupons />
+  </Customer>
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2018-09-05T11:33:58.6956633+02:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+    <CustomerJourneys />
+    <Coupons />
+  </Customer>
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2018-09-05T11:35:03.7602334+02:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+    <CustomerJourneys />
+    <Coupons />
+  </Customer>
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2018-09-05T11:35:47.1535136+02:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+    <CustomerJourneys />
+    <Coupons />
+  </Customer>
+  <Customer>
+    <Id>100</Id>
+    <Login>kot0177</Login>
+    <Password>asd</Password>
+    <Firstname>ja</Firstname>
+    <Lastname>prijmeni</Lastname>
+    <BirthDate>2018-09-05T11:37:42.0232783+02:00</BirthDate>
+    <City>ostrava</City>
+    <Adress>adressa</Adress>
+    <Email>emaillllllll@seznam.cz</Email>
+  </Customer>
+</ArrayOfCustomer>

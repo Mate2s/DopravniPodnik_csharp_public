@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WcfDopravniPodnik.RouteNumberService.RouteNumberService" CodeBehind="RouteNumberService.svc.cs" %>

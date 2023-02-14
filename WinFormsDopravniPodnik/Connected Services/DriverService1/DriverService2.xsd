@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BusinessLayer.BusinessLayerClass" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BusinessLayer.BusinessLayerClass" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Driver">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Employee">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Driver" nillable="true" type="tns:Driver" />
+  <xs:complexType name="Employee">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_adress" nillable="true" type="xs:string" />
+          <xs:element name="_birthdate" type="xs:dateTime" />
+          <xs:element name="_city" nillable="true" type="xs:string" />
+          <xs:element name="_email" nillable="true" type="xs:string" />
+          <xs:element name="_firstname" nillable="true" type="xs:string" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_lastname" nillable="true" type="xs:string" />
+          <xs:element name="_login" nillable="true" type="xs:string" />
+          <xs:element name="_password" nillable="true" type="xs:string" />
+          <xs:element name="_routes" nillable="true" type="tns:ArrayOfRoute" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Employee" nillable="true" type="tns:Employee" />
+  <xs:complexType name="DomainObject">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="DomainObject" nillable="true" type="tns:DomainObject" />
+  <xs:complexType name="ArrayOfRoute">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Route" nillable="true" type="tns:Route" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRoute" nillable="true" type="tns:ArrayOfRoute" />
+  <xs:complexType name="Route">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_customerJourneys" nillable="true" type="tns:ArrayOfCustomerJourney" />
+          <xs:element name="_endRoute" type="xs:dateTime" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_routeNumber" nillable="true" type="tns:RouteNumber" />
+          <xs:element name="_startRoute" type="xs:dateTime" />
+          <xs:element name="_vehicle" nillable="true" type="tns:Vehicle" />
+          <xs:element name="currentStation" nillable="true" type="tns:Station" />
+          <xs:element name="driver" nillable="true" type="tns:Driver" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Route" nillable="true" type="tns:Route" />
+  <xs:complexType name="ArrayOfCustomerJourney">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CustomerJourney" nillable="true" type="tns:CustomerJourney" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCustomerJourney" nillable="true" type="tns:ArrayOfCustomerJourney" />
+  <xs:complexType name="CustomerJourney">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_comment" nillable="true" type="xs:string" />
+          <xs:element name="_customer" nillable="true" type="tns:Customer" />
+          <xs:element name="_endStation" nillable="true" type="tns:Station" />
+          <xs:element name="_exitDate" type="xs:dateTime" />
+          <xs:element name="_payment" nillable="true" type="tns:Payment" />
+          <xs:element name="_route" nillable="true" type="tns:Route" />
+          <xs:element name="_startDate" type="xs:dateTime" />
+          <xs:element name="_startStation" nillable="true" type="tns:Station" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CustomerJourney" nillable="true" type="tns:CustomerJourney" />
+  <xs:complexType name="Customer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_adress" nillable="true" type="xs:string" />
+          <xs:element name="_birthDate" type="xs:dateTime" />
+          <xs:element name="_city" nillable="true" type="xs:string" />
+          <xs:element name="_coupons" nillable="true" type="tns:ArrayOfCoupon" />
+          <xs:element name="_customerJourneys" nillable="true" type="tns:ArrayOfCustomerJourney" />
+          <xs:element name="_email" nillable="true" type="xs:string" />
+          <xs:element name="_firstname" nillable="true" type="xs:string" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_lastname" nillable="true" type="xs:string" />
+          <xs:element name="_login" nillable="true" type="xs:string" />
+          <xs:element name="_password" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Customer" nillable="true" type="tns:Customer" />
+  <xs:complexType name="ArrayOfCoupon">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Coupon" nillable="true" type="tns:Coupon" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCoupon" nillable="true" type="tns:ArrayOfCoupon" />
+  <xs:complexType name="Coupon">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_endvalidity" type="xs:dateTime" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_owner" nillable="true" type="tns:Customer" />
+          <xs:element name="_payment" nillable="true" type="tns:Payment" />
+          <xs:element name="_startvalidity" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Coupon" nillable="true" type="tns:Coupon" />
+  <xs:complexType name="Payment">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_coupon" nillable="true" type="tns:Coupon" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_journey" nillable="true" type="tns:CustomerJourney" />
+          <xs:element name="_payer" nillable="true" type="tns:Customer" />
+          <xs:element name="_paymentDate" type="xs:dateTime" />
+          <xs:element name="_value" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Payment" nillable="true" type="tns:Payment" />
+  <xs:complexType name="Station">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_gpslat" type="xs:float" />
+          <xs:element name="_gpslng" type="xs:float" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_name" nillable="true" type="xs:string" />
+          <xs:element name="_routeNumberStations" nillable="true" type="tns:ArrayOfRouteNumberStation" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Station" nillable="true" type="tns:Station" />
+  <xs:complexType name="ArrayOfRouteNumberStation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RouteNumberStation" nillable="true" type="tns:RouteNumberStation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRouteNumberStation" nillable="true" type="tns:ArrayOfRouteNumberStation" />
+  <xs:complexType name="RouteNumberStation">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Desc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Direction" type="xs:boolean" />
+          <xs:element minOccurs="0" name="KmToNextStation" type="xs:double" />
+          <xs:element minOccurs="0" name="Order" type="xs:int" />
+          <xs:element minOccurs="0" name="Station" nillable="true" type="tns:Station" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RouteNumberStation" nillable="true" type="tns:RouteNumberStation" />
+  <xs:complexType name="RouteNumber">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_description" nillable="true" type="xs:string" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_number" type="xs:int" />
+          <xs:element name="_routeNumberStationsDirectionOne" nillable="true" type="tns:ArrayOfRouteNumberStation" />
+          <xs:element name="_routeNumberStationsDirectionTwo" nillable="true" type="tns:ArrayOfRouteNumberStation" />
+          <xs:element name="_routes" nillable="true" type="tns:ArrayOfRoute" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RouteNumber" nillable="true" type="tns:RouteNumber" />
+  <xs:complexType name="Vehicle">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DomainObject">
+        <xs:sequence>
+          <xs:element name="_brand" nillable="true" type="xs:string" />
+          <xs:element name="_capacity" type="xs:int" />
+          <xs:element name="_id" type="xs:int" />
+          <xs:element name="_name" nillable="true" type="xs:string" />
+          <xs:element name="_routes" nillable="true" type="tns:ArrayOfRoute" />
+          <xs:element name="_spz" nillable="true" type="xs:string" />
+          <xs:element name="_year" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vehicle" nillable="true" type="tns:Vehicle" />
+</xs:schema>

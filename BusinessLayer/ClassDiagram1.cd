@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BusinessLayer.BusinessLayerClass.Administrator">
+    <Position X="1.5" Y="11.25" Width="2.25" />
+    <InheritanceLine Type="BusinessLayer.BusinessLayerClass.Driver" ManuallyRouted="true">
+      <Path>
+        <Point X="2.625" Y="10.233" />
+        <Point X="2.625" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayerClass\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Coupon">
+    <Position X="24.5" Y="6.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACgACAAAAAAQAAAIJAAAAAAAAAAAQABAAAAAIBAAA=</HashCode>
+      <FileName>BusinessLayerClass\Coupon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Customer">
+    <Position X="19.5" Y="6" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAEABACAMAEAIAAFAQAQAAAgAAAAAAQAQIAICAAU=</HashCode>
+      <FileName>BusinessLayerClass\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_customerJourneys" />
+      <Field Name="_coupons" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.CustomerJourney">
+    <Position X="14.75" Y="6.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_startStation" Type="BusinessLayer.BusinessLayerClass.Station" FixedFromPoint="true">
+      <Path>
+        <Point X="15.125" Y="9.155" />
+        <Point X="15.125" Y="10.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_endStation" Type="BusinessLayer.BusinessLayerClass.Station" FixedFromPoint="true">
+      <Path>
+        <Point X="16.438" Y="9.155" />
+        <Point X="16.438" Y="10.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABGAAACEEEAAIIAAAMIAAAAAAAAAAAAgAAABAEJAAAA=</HashCode>
+      <FileName>BusinessLayerClass\CustomerJourney.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_startStation" />
+      <Field Name="_endStation" />
+      <Field Name="_customer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Driver">
+    <Position X="1.5" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayerClass\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Employee">
+    <Position X="1.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAEgBACAACAAIAEFAAAQAAAgAAAAAAQAQIAICAAE=</HashCode>
+      <FileName>BusinessLayerClass\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Payment">
+    <Position X="20" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EBACAAAAAEEAgAIAAABAAAAACAEAAAAAAAAgQAIAAAA=</HashCode>
+      <FileName>BusinessLayerClass\Payment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_payer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Route">
+    <Position X="5" Y="6.75" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="driver" Type="BusinessLayer.BusinessLayerClass.Driver" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.062" Y="9.271" />
+        <Point X="5.062" Y="9.783" />
+        <Point X="3.75" Y="9.783" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAEAAAABAQASABAIIgABAAAAAAAICIAA=</HashCode>
+      <FileName>BusinessLayerClass\Route.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_vehicle" />
+      <Field Name="driver" />
+      <Field Name="_routeNumber" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_customerJourneys" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.RouteNumber">
+    <Position X="4.5" Y="10.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAAgCAAEAEBAEAAgAAAAAAAAAAAAAAJAAAA=</HashCode>
+      <FileName>BusinessLayerClass\RouteNumber.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_routeNumberStationsDirectionOne" />
+      <Field Name="_routeNumberStationsDirectionTwo" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.RouteNumberStation">
+    <Position X="10.25" Y="10.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEBAAACAAAAIAAAECAAAAAAAAAIAABAAAABQAIAAQA=</HashCode>
+      <FileName>BusinessLayerClass\RouteNumberStation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_station" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Station">
+    <Position X="14.5" Y="10.75" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACIAAABAAgAAAAAABAIAQQAAAAAAAAACAAAAIAIAA=</HashCode>
+      <FileName>BusinessLayerClass\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BusinessLayerClass.Vehicle">
+    <Position X="5" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACIAAABAAACAQBAEBAAAYCAAAAAAAAAAAAAAIBAIA=</HashCode>
+      <FileName>BusinessLayerClass\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.Mapper.Mapper">
+    <Position X="27" Y="3.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAQAAAAAAAAABAAAAAUAAAAAAACAA=</HashCode>
+      <FileName>Mapper\Mapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.map.Map">
+    <Position X="27.25" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAI=</HashCode>
+      <FileName>map\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.map.IdentifyMap">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAABAAAAAAAAAABAAAAABIQAAAQAAAAAAAAAA=</HashCode>
+      <FileName>map\IdentifyMap.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="map" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BusinessLayer.UnitOfWork.UnitOfWork">
+    <Position X="29.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIBEAAAAAAQAAAAIAKAQAAAABAAAAAQAQAAAFCAAA=</HashCode>
+      <FileName>UnitOfWork\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

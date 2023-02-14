@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfStation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>josefa kotase</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+    <RouteNumberStations />
+  </Station>
+  <Station>
+    <Id>100</Id>
+    <Name>Dubina</Name>
+    <Gpslat>49.7828</Gpslat>
+    <Gpslng>18.2561</Gpslng>
+  </Station>
+</ArrayOfStation>
